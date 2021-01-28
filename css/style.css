@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Lily+Script+One|Cabin|Varela+Round');
+html {
+	background: url(../img/bg2.jpg) no-repeat center center fixed;
+  }
+
+body {
+	transform: translateY(100px);
+	background: #ECEFF100;
+	text-align: center;
+}
+
+a {
+	color: #212121;
+	transition: opacity linear 0.3s;
+}
+
+a:hover {
+	opacity: 0.8;
+	color: #212121;	
+}
+
+#about, #skills, #projects, #contact {
+	display: none;
+}
+
+
+.title {
+	 font-family: 'Lily Script One', cursive;
+     font-size: 4em;
+	 margin: 20px 0px;
+}
+
+#profile img {
+	margin: 0px auto;
+	display: block;	
+	border: solid 8px #607D8B;
+}
+
+
+#home p {
+	font-family: 'Cabin';
+	font-size: 15px;
+}
+
+#skills i {
+
+	font-size: 40px;
+	margin: 10px 4px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	color: #ECEFF1;
+	background-color: #313131;
+	font-size: 15px;
+	font-family: 'Varela Round';
+	display: inline-block;
+	margin: 5px 5px;
+	border:  solid 2px #313131;
+	border-radius: 18px;
+	padding: 10px 10px;
+}
+
+#contact ul li {
+	border-radius: 15px;
+	padding: 10px 23px;
+}
+
+#contact .fa {
+	font-size: 18px;
+}
+
+
+#navigate {
+	margin: 10px 0;
+}
+
+#navigate .fa {
+	font-size: 20px;
+	border: solid 1px #616161;
+	padding: 15px 25px;
+	margin: 0px 5px;
+	color: #212121;
+	transition: opacity linear 0.3s;
+	border-radius: 10px;
+}
+
+#navigate .fa:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.icon-html5-alt {
+	color: #01579B;
+}
+
+.icon-css3-alt {
+	color: #FF5722;
+}
+
+.icon-javascript-alt {
+	color: #FFC107;
+}
+
+.icon-bootstrap {
+	color: #512DA8;
+}
+
+.ri-flutter-line {
+	color: #3F51B5;
+}
+
+.ri-database-2-line {
+	color: #8BC34A;
+}
+
+.icon-python {
+	color: #283593;
+}
+
+.icon-git {
+	color: #F44336;
+}
+
+#emailsys li {
+	background: #512DA8;
+	border-color: #512DA8;
+}
+
+#portfolio li{
+	background: #EF6C00;
+	border-color: #EF6C00;
+}
+
+#cipherly li {
+	background: rgb(117, 11, 11);
+	border-color: #3F51B5;
+}
+
+#ecomm li {
+	background: #3E2723;
+	border-color: #3E2723;
+}
+
+#linkedin li {
+	background: #0012b6;
+	border-color: #0012b6;
+}
+
+#twitter li {
+	background: #007BB6;
+	border-color: #007BB6;
+}
+
+#envelope li {
+	background: #E94132;
+	border-color: #E94132;
+}
+
+#github li {
+	background: #0D2636;
+	border-color: #0D2636;
+}
